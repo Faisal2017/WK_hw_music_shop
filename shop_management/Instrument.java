@@ -1,3 +1,5 @@
+package shop_management;
+
 public abstract class Instrument {
 
   String type;
