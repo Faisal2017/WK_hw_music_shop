@@ -36,5 +36,10 @@
     assertEquals("plinky plonky", piano.playInstrument());
   }
 
+  @Test
+  public void testMarkUp() {
+    assertEquals(100, piano.calculateMarkUp());
+  }
+
 
  }

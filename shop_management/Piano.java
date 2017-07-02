@@ -11,8 +11,8 @@ public class Piano extends Instrument implements Playable, Sellable {
     return "plinky plonky"; 
   }
 
-  public int calculateMarkUp(int buyingPrice, int sellingPrice) {
-    return (sellingPrice / buyingPrice ) - 1 * 100;
+  public int calculateMarkUp() {
+    return sellingPrice - buyingPrice;
   }
 
 

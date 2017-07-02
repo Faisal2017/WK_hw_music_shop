@@ -36,5 +36,10 @@ public class TrumpetTest {
     assertEquals("burrup burrup", trumpet.playInstrument());
   }
 
+  @Test
+  public void testMarkUp() {
+    assertEquals(25, trumpet.calculateMarkUp());
+  }
+
 
 }

@@ -11,8 +11,8 @@ public class Trumpet extends Instrument implements Playable, Sellable {
     return "burrup burrup";
   }
 
-  public int calculateMarkUp(int buyingPrice, int sellingPrice) {
-    return (sellingPrice / buyingPrice ) - 1 * 100;
+  public int calculateMarkUp() {
+    return sellingPrice - buyingPrice;
   }
 
 }
