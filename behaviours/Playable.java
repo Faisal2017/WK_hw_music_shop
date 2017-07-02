@@ -2,6 +2,6 @@ package behaviours;
 
 public interface Playable {
 
-  String playInstrument());
+  String playInstrument();
 
 }
